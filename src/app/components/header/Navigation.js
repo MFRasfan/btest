@@ -8,7 +8,7 @@ const Navigation = () => {
       <ul className={styles.mainMenu}>
         <li className={styles.drop}>
           <Link href="/">
-              Home
+            Home
           </Link>
         </li>
 
@@ -20,20 +20,20 @@ const Navigation = () => {
 
         <li>
           <Link href="/about">
-              About
+            About
           </Link>
         </li>
 
         <li className={styles.drop}>
           <Link href="/contact">
-              Contact
+            Contact
           </Link>
         </li>
-          
+
         <li className={styles.drop}>
-          <Link href="https://besanz.simplelogin.net/" target="_blank">
-              Login
-          </Link>
+          <a href="https://besanz.simplelogin.net/" target="_blank">
+            Login
+          </a>
         </li>
 
       </ul>

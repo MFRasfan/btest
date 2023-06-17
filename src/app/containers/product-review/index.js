@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./ProductReview.module.scss";
 import "./index.css";
+import $ from 'jquery'
 
 const ProductReview = () => {
 
