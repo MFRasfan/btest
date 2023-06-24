@@ -11,10 +11,10 @@ const CrmCard = ({data}) => {
         <Container style={{minWidth:200}}
         className="mt-3  align-middle justify-center item-center content-center pt-1  crm-link">       
             <Row>
-                <Col sm={1}  >
+                <Col sm={1} xs={2}  >
                 <Image className='pt-1' width={20} height={25} style={{resizeMode:"contain"}} src={data.image} />
                 </Col>
-                <Col sm={10}>
+                <Col sm={10}  xs={10}>
                   <p className='pt-2 ps-2'>{data.name}</p>
                 </Col>
             </Row>

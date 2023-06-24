@@ -1,4 +1,4 @@
-@import "../../../../../public/assets/scss/variables";
+@import "../../../../public/assets/scss/variables";
 
 .blDetailsInner {
     .thumb {
@@ -28,46 +28,43 @@
                     font-size: 14px;
                     font-weight: 500;
 
-                    color: #035F91;
                 }
             }
         }
         p {
             font-size: 16px;
             line-height: 33px;
-
             margin-bottom: 0;
-
-            color: #035F91;
         }
+
+        h2 {
+            &.blTitle {
+                font-size: 26px;
+                font-weight: 500;
+                margin-top: 45px;
+                margin-bottom: 10px;
+            }
+        }
+        
         h2 {
             &.blTitle {
                 font-size: 24px;
                 font-weight: 500;
-
                 margin-top: 45px;
-                margin-bottom: 17px;
-
-                color: #035F91;
+                margin-bottom: 10px;
             }
         }
         blockquote {
             font-size: 20px;
             font-weight: 700;
             line-height: 30px;
-
             position: relative;
-
             margin: 61px 118px 40px;
-
             text-align: center;
-
-            color: #035F91;
         }
     }
     .blList {
-        display: flex;
-        justify-content: space-between;
+        display: block;
 
         margin: 50px -15px 0;
         padding: 0;
@@ -75,6 +72,7 @@
         list-style: outside none none;
         li {
             padding: 0 15px;
+            margin-bottom: 10px;
 
             img {
                 width: 100%;

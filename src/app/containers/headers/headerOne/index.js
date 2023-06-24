@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import Logo from "../../../components/header/Logo";
 import Navigation from "../../../components/header/Navigation";
 import HeaderBtn from "../../../components/header/HeaderBtn";
-// import MobileMenu from "../../../components/header/MobileMenu";
+import MobileMenu from "../../../components/header/MobileMenu";
 import styles from "./Header.module.scss";
 import { BiSupport } from 'react-icons/bi'
 import { BsPhone } from 'react-icons/bs'
@@ -17,9 +17,10 @@ const Header = () => {
 	const [scroll, setScroll] = useState(0);
 	const [headerTop, setHeaderTop] = useState(0);
 
-	// const [windowWidth, setWindowWidth] = useState(0);
+	const [windowWidth, setWindowWidth] = useState(0);
 
 	useEffect(() => {
+		if (!window) return;
 		const header = document.querySelector("header");
 		setHeaderTop(header.offsetTop);
 		window.addEventListener("scroll", handleScroll);
@@ -30,15 +31,16 @@ const Header = () => {
 	}, []);
 
 
-	// useEffect(() => {
-	//   const handleWindowResize = () => {
-	//     setWindowWidth(window.innerWidth);
-	//   };
-	//   window.addEventListener('resize', handleWindowResize);
-	//   return () => {
-	//     window.removeEventListener('resize', handleWindowResize);
-	//   };
-	// });
+	useEffect(() => {
+		if (!window) return;
+		const handleWindowResize = () => {
+			setWindowWidth(window.innerWidth);
+		};
+		window.addEventListener('resize', handleWindowResize);
+		return () => {
+			window.removeEventListener('resize', handleWindowResize);
+		};
+	});
 
 	const handleScroll = () => {
 		setScroll(window.scrollY);
@@ -53,6 +55,8 @@ const Header = () => {
 			{scroll <= 0 &&
 				<div className="topbarr" style={{ marginTop: scroll <= 0 ? 0 : -20 }}>
 					<div className="container">
+
+						{/* <div className="responsive-breakpoint"></div> */}
 
 						<a href="https://395c0d4bb6.appchemist.io/" target="_blank" className="topbar-link">
 							<span><BiSupport size={20} /> Support</span>
@@ -72,9 +76,9 @@ const Header = () => {
 						<Logo />
 					</div>
 
-					<div class="col-lg-10">
+					<div class="col-lg-10 col-md-6 col-6">
 						<div className="row flex-row-reverse">
-							<div className="col-6 col-lg-auto pt-3">
+							<div className="col-6 col-lg-auto pt-0 pt-md-0 pt-lg-3">
 								{/* header button */}
 								<HeaderBtn styles={styles} />
 							</div>
@@ -88,7 +92,7 @@ const Header = () => {
 				</div>
 
 				{/* Mobile Menu */}
-				{/* <MobileMenu styles={styles} /> */}
+				<MobileMenu styles={styles} />
 
 			</div>
 		</header>

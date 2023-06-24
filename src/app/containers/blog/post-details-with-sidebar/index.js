@@ -7,18 +7,11 @@ const PostDetailsWithSidebar = ({ sidebarPosition }) => {
     <div className="blog__details__area pt--120 pb--110 bg--white">
       <div className="container">
         <div className="row">
-          <div
-            className={`col-12 col-lg-9 col-xl-8 ${sidebarPosition && sidebarPosition === "left"
-                ? "order-1 order-lg-2 offset-xl-1"
-                : ""
-              }`}
-          >
+
+          <div className={`col-12 col-lg-9 col-xl-8 ${sidebarPosition && sidebarPosition === "left" ? "" : "" }`} >
             <div className={styles.blDetailsInner}>
               <div className={styles.thumb}>
-                <img
-                  src={"/assets/images/blog/big-img.png"}
-                  alt="voip voopo"
-                />
+                <img src={"/assets/images/blog/big-img.png"} alt="voip voopo" />
               </div>
               <div className={styles.blogContent}>
                 <div className={styles.author}>
@@ -88,10 +81,10 @@ const PostDetailsWithSidebar = ({ sidebarPosition }) => {
               </div>
             </div>
           </div>
-          <div
-            className={`col-12 col-lg-3 col-xl-3 sm__mt--40 md__mt--40 ${sidebarPosition && sidebarPosition === "left"
-                ? "order-2 order-lg-1"
-                : "offset-xl-1"
+
+          <div className={`col-12 col-lg-3 col-xl-3 ${sidebarPosition && sidebarPosition === "left"
+                ? ""
+                : ""
               }`}
           >
             <BlogSidebar />

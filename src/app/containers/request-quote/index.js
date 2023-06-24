@@ -10,9 +10,9 @@ const RequestQuote = () => {
 
 
   return (
-    <div className={styles.requestQuote}>
+    <div className={`${styles.requestQuote} m-requestQuote`}>
       <div className="container">
-        <div className={styles.requestQuoteWrap}>
+        <div className={`${styles.requestQuoteWrap} m-requestQuoteWrap`}>
 
           <div className="row">
             <div className="col-lg-12">

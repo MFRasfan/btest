@@ -79,6 +79,7 @@ const ContactFaqOne = () => {
                 </h2>
                 <img
                   src={"/assets/images/quote.png"}
+                  className="d-none d-lg-block"
                   style={{
                     width: "80%",
                     height: "80%",

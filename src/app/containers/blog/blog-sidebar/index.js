@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
@@ -10,29 +12,28 @@ import styles from "./BlogSidebar.module.scss";
 const BlogSidebar = () => {
   return (
     <div className="voopoSidebar">
+
       {/* Start Serarch */}
-      <div className={`${styles.vpWidget} ${styles.search} mb--60`}>
+      {/* <div className={`${styles.vpWidget} ${styles.search} mb--60 m-blog-Serarch`}>
         <input type="text" placeholder="Search Here" />
         <button>
           <IoIosSearch />
         </button>
-      </div>
+      </div> */}
       {/* End Serarch */}
+
       {/* Start Newsleter */}
-      <div className={`${styles.vpWidget} ${styles.newsletter} mb--60`}>
+      {/* <div className={`${styles.vpWidget} ${styles.newsletter} mb--60`}>
         <h4>Subscribe to Newsletter</h4>
         <SubscribeEmail mailchimpUrl="https://besanz.us21.list-manage.com/subscribe/post?u=34568160078ca5029861ec516&amp;id=f7f23dad6e&amp;f_id=004dcfe1f0" />
-
-
-      </div>
+      </div> */}
       {/* End Newsleter */}
+
       {/* Start Recent Post */}
       <div className={`${styles.vpWidget} ${styles.recentPostWrap} mb--60`}>
         <Tab.Container defaultActiveKey="recent">
-          <Nav
-            variant="pills"
-            className={`${styles.voopoNav} nav justify-content-center`}
-          >
+
+          <Nav variant="pills" className={`${styles.voopoNav} nav justify-content-center ms-0`}>
             <Nav.Item className={styles.navItem}>
               <Nav.Link eventKey="recent">Recent</Nav.Link>
             </Nav.Item>
@@ -40,173 +41,94 @@ const BlogSidebar = () => {
               <Nav.Link eventKey="trending">Trending</Nav.Link>
             </Nav.Item>
           </Nav>
+
           <Tab.Content>
             <Tab.Pane eventKey="recent" className={styles.singleTabContent}>
+
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"/blog-post"}>
-                    <img
-                      src={"/assets/images/blog/s1.jpg"}
-                      alt="voopo voip"
-                    />
+                  <Link href={"blog/blog-post/the-cost-savings-of-switching-to-a-cloud-based-phone-solution"}>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"/blog-post"}>
-                      Voopo Lounch their Business.
+                    <Link href={"blog/blog-post/the-cost-savings-of-switching-to-a-cloud-based-phone-solution"}>
+                      The Cost Savings of Switching to a Cloud-Based Phone Solution
                     </Link>
                   </h4>
-                  <span>13 Feb 2020</span>
+                  <span>24 June 2023</span>
                 </div>
               </div>
+
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"/blog-post"}>
-                    <img
-                      src={"/assets/images/blog/s2.jpg"}
-                      alt="voopo voip"
-                    />
+                  <Link href={"blog/blog-post/how-a-cloud-based-phone-solution-can-revolutionize-your-business-communications"}>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-2.jpg"} alt="Phone Solution"/>
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"/blog-post"}>
-                      Three things about voopo.
+                    <Link href={"blog/blog-post/how-a-cloud-based-phone-solution-can-revolutionize-your-business-communications"}>
+                      How a Cloud-Based Phone Solution Can Revolutionize Your Business Communications
                     </Link>
                   </h4>
-                  <span>14 Feb 2020</span>
-                </div>
-              </div>
-              <div className={styles.recentPost}>
-                <div className={styles.thumb}>
-                  <Link href={"/blog-post"}>
-                    <img
-                      src={"/assets/images/blog/s3.jpg"}
-                      alt="voopo voip"
-                    />
-                  </Link>
-                </div>
-                <div className={styles.content}>
-                  <h4>
-                    <Link href={"/blog-post"}>
-                      Lorem ipsum dolor set amet.
-                    </Link>
-                  </h4>
-                  <span>15 Feb 2020</span>
-                </div>
-              </div>
-              <div className={styles.recentPost}>
-                <div className={styles.thumb}>
-                  <Link href={"/blog-post"}>
-                    <img
-                      src={"/assets/images/blog/s4.jpg"}
-                      alt="voopo voip"
-                    />
-                  </Link>
-                </div>
-                <div className={styles.content}>
-                  <h4>
-                    <Link href={"/blog-post"}>
-                      Usefulness of VoIP in 2020.
-                    </Link>
-                  </h4>
-                  <span>16 Feb 2020</span>
+                  <span>24 June 2023</span>
                 </div>
               </div>
             </Tab.Pane>
+
             <Tab.Pane eventKey="trending" className={styles.singleTabContent}>
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"/blog-post"}>
-                    <img
-                      src={"/assets/images/blog/s3.jpg"}
-                      alt="voopo voip"
-                    />
+                  <Link href={"blog/blog-post/the-cost-savings-of-switching-to-a-cloud-based-phone-solution"}>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm.jpg"} alt="Phone Solution"/>
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"/blog-post"}>
-                      Lorem ipsum dolor set amet.
+                    <Link href={"blog/blog-post/the-cost-savings-of-switching-to-a-cloud-based-phone-solution"}>
+                      The Cost Savings of Switching to a Cloud-Based Phone Solution
                     </Link>
                   </h4>
-                  <span>15 Feb 2020</span>
+                  <span>24 June 2023</span>
                 </div>
               </div>
+
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"/blog-post"}>
-                    <img
-                      src={"/assets/images/blog/s4.jpg"}
-                      alt="voopo voip"
-                    />
+                  <Link href={"blog/blog-post/how-a-cloud-based-phone-solution-can-revolutionize-your-business-communications"}>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-2.jpg"} alt="Phone Solution"/>
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"/blog-post"}>
-                      Usefulness of VoIP in 2020.
+                    <Link href={"blog/blog-post/how-a-cloud-based-phone-solution-can-revolutionize-your-business-communications"}>
+                      How a Cloud-Based Phone Solution Can Revolutionize Your Business Communications
                     </Link>
                   </h4>
-                  <span>16 Feb 2020</span>
-                </div>
-              </div>
-              <div className={styles.recentPost}>
-                <div className={styles.thumb}>
-                  <Link href={"/blog-post"}>
-                    <img
-                      src={"/assets/images/blog/s1.jpg"}
-                      alt="voopo voip"
-                    />
-                  </Link>
-                </div>
-                <div className={styles.content}>
-                  <h4>
-                    <Link href={"/blog-post"}>
-                      Voopo Lounch their Business.
-                    </Link>
-                  </h4>
-                  <span>13 Feb 2020</span>
-                </div>
-              </div>
-              <div className={styles.recentPost}>
-                <div className={styles.thumb}>
-                  <Link href={"/blog-post"}>
-                    <img
-                      src={"/assets/images/blog/s2.jpg"}
-                      alt="voopo voip"
-                    />
-                  </Link>
-                </div>
-                <div className={styles.content}>
-                  <h4>
-                    <Link href={"/blog-post"}>
-                      Three things about voopo.
-                    </Link>
-                  </h4>
-                  <span>14 Feb 2020</span>
+                  <span>24 June 2023</span>
                 </div>
               </div>
             </Tab.Pane>
+            
           </Tab.Content>
         </Tab.Container>
       </div>
       {/* End Recent Post */}
+
       {/* Start Newsleter */}
-      <div className={`${styles.vpWidget} ${styles.banner} mb--60`}>
+      {/* <div className={`${styles.vpWidget} ${styles.banner} mb--60`}>
         <div className={styles.thumb}>
           <Link href={"/blog"}>
-            <img
-              src={"/assets/images/blog/banner.png"}
-              alt="voopo voip"
-            />
+            <img src={"/assets/images/blog/banner.png"} alt="voopo voip" />
           </Link>
         </div>
-      </div>
+      </div> */}
       {/* End Newsleter */}
+
       {/* Start Tag */}
-      <div className={`${styles.vpWidget} ${styles.voopoTag}`}>
+      {/* <div className={`${styles.vpWidget} ${styles.voopoTag}`}>
         <ul className={styles.tagList}>
           <li>
             <Link href={"/blog"}>
@@ -249,7 +171,7 @@ const BlogSidebar = () => {
             </Link>
           </li>
         </ul>
-      </div>
+      </div> */}
       {/* End Tag */}
     </div>
   );

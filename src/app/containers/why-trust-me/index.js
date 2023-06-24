@@ -27,12 +27,36 @@ const WhyTrustMe = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
-    pauseOnHover: true
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }]
   };
 
   return (
     <>
-      <div className={styles.testimonials}>
+      <div className={`${styles.testimonials} m-testimonials`}>
         <div className="container testimonials-warap">
           <div className="row">
             <div className="col-lg-6">
@@ -91,7 +115,7 @@ const WhyTrustMe = () => {
               </div>
             </div>
 
-            <div className={styles.imgWrap}>
+            <div className={`${styles.imgWrap} m-testimonial-imgWrap`}>
               <img src={"/assets/images/testimonial-right1.jpg"} />
             </div>
           </div>
@@ -106,7 +130,7 @@ const WhyTrustMe = () => {
           </div>
 
           <div className="row">
-            <div className={styles.benefit2}>
+            <div className={`${styles.benefit2} m-benefit2`}>
               <div className={styles.itemIcon}>
                 01
               </div>
@@ -117,7 +141,7 @@ const WhyTrustMe = () => {
               </div>
             </div>
 
-            <div className={styles.benefit2}>
+            <div className={`${styles.benefit2} m-benefit2`}>
               <div className={styles.itemIcon}>
                 02
               </div>
@@ -129,7 +153,7 @@ const WhyTrustMe = () => {
               </div>
             </div>
 
-            <div className={styles.benefit2}>
+            <div className={`${styles.benefit2} m-benefit2`}>
               <div className={styles.itemIcon}>
                 03
               </div>
@@ -141,7 +165,7 @@ const WhyTrustMe = () => {
               </div>
             </div>
 
-            <div className={styles.benefit2}>
+            <div className={`${styles.benefit2} m-benefit2`}>
               <div className={styles.itemIcon}>
                 04
               </div>
@@ -153,7 +177,7 @@ const WhyTrustMe = () => {
               </div>
             </div>
 
-            <div className={styles.benefit2}>
+            <div className={`${styles.benefit2} m-benefit2`}>
               <div className={styles.itemIcon}>
                 05
               </div>
@@ -165,7 +189,7 @@ const WhyTrustMe = () => {
               </div>
             </div>
 
-            <div className={styles.benefit2}>
+            <div className={`${styles.benefit2} m-benefit2`}>
               <div className={styles.itemIcon}>
                 06
               </div>
@@ -176,7 +200,7 @@ const WhyTrustMe = () => {
               </div>
             </div>
 
-            <div className={styles.benefit2}>
+            <div className={`${styles.benefit2} m-benefit2`}>
               <div className={styles.itemIcon}>
                 07
               </div>
@@ -187,7 +211,7 @@ const WhyTrustMe = () => {
               </div>
             </div>
 
-            <div className={styles.benefit2}>
+            <div className={`${styles.benefit2} m-benefit2`}>
               <div className={styles.itemIcon}>
                 08
               </div>
@@ -199,7 +223,7 @@ const WhyTrustMe = () => {
               </div>
             </div>
 
-            <div className={styles.benefit2}>
+            <div className={`${styles.benefit2} m-benefit2`}>
               <div className={styles.itemIcon}>
                 09
               </div>

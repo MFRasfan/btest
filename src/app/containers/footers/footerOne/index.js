@@ -24,6 +24,7 @@ const Footer = ({ footerBg }) => {
   const [top, setTop] = useState(0);
 
   useEffect(() => {
+    if (!window) { return }
     setTop(100);
     window.addEventListener("scroll", handleScroll);
     return () => {
@@ -47,12 +48,12 @@ const Footer = ({ footerBg }) => {
           <div className="row">
             {/* Start Single Wedget */}
             <div className="col-12 col-sm-6 col-lg-3">
-              <div className={styles.singleWidget}>
+              <div className={`${styles.singleWidget} m-singleWidget`}>
                 <div className={styles.logo}>
                   <Link href={"/"}>
                     <img
                       src={footerBg === "white" ? logoDark : logo}
-                      alt="voip"
+                      alt="voip" className="m-footerLogo"
                     />
                   </Link>
                 </div>
@@ -74,7 +75,7 @@ const Footer = ({ footerBg }) => {
             {/* End Single Wedget */}
             {/* Start Single Wedget */}
             <div className="col-12 col-sm-6 col-lg-2 offset-lg-1 xs__mt--40">
-              <div className={styles.singleWidget}>
+              <div className={`${styles.singleWidget} m-singleWidget`}>
                 <h2 className={styles.ftTitle}>
                   Navigation
                 </h2>
@@ -105,7 +106,7 @@ const Footer = ({ footerBg }) => {
             {/* End Single Wedget */}
             {/* Start Single Wedget */}
             <div className="col-lg-2 offset-lg-1 col-md-6 col-sm-6 col-12 sm__mt--40 md__mt--40">
-              <div className={styles.singleWidget}>
+              <div className={`${styles.singleWidget} m-singleWidget`}>
                 <h2 className={styles.ftTitle}>
                   BESANZ Info
                 </h2>
@@ -138,7 +139,7 @@ const Footer = ({ footerBg }) => {
             {/* End Single Wedget */}
             {/* Start Single Wedget */}
             <div className="col-lg-2 offset-lg-1 col-md-6 col-sm-6 col-12 sm__mt--40 md__mt--40">
-              <div className={styles.singleWidget}>
+              <div className={`${styles.singleWidget} m-singleWidget`}>
                 <h2 className={styles.ftTitle}>
                   Resources
                 </h2>

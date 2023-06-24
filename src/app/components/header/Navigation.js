@@ -24,6 +24,12 @@ const Navigation = () => {
           </Link>
         </li>
 
+        <li>
+          <Link href="/blog">
+            Blog
+          </Link>
+        </li>
+
         <li className={styles.drop}>
           <Link href="/contact">
             Contact

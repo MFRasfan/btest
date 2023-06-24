@@ -5,7 +5,7 @@ const ServiceOneSingle = ({ data, styles }) => {
 
   return (
     <div className="col-12 col-md-6 col-lg-4 md__mt--40 sm__mt--40">
-      <div className={styles.service}>
+      <div className={`${styles.service} m-service`}>
 
         <h2>{data.title.en}</h2>
         <p>{data.text.en}</p>

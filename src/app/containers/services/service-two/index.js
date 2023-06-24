@@ -12,7 +12,7 @@ const ServiceTwo = () => {
         <div className="row">
           <div className="col-12 col-sm-8 col-md-5 col-lg-4">
 
-              <div className={styles.serviceTitle}>
+              <div className={`${styles.serviceTitle} m-serviceTitle`}>
                 <h2>{serviceContentData.title.en}</h2>
                 <h3>{serviceContentData.subtitle.en}</h3>
                   <p>
@@ -58,7 +58,7 @@ const ServiceTwo = () => {
                   </p>
               </div>
 
-            <div className={styles.serviceTitle}>
+            <div className={`${styles.serviceTitle} m-serviceTitle`}>
               <h3>{serviceContentData.subtitle2.en}</h3>
                 <p>
                 <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">

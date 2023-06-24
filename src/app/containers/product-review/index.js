@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import styles from "./ProductReview.module.scss";
 import "./index.css";
-import $ from 'jquery'
+
+import $ from "jquery";
+// import "jquery-ui-dist/jquery-ui";
 
 const ProductReview = () => {
 
@@ -11,7 +13,7 @@ const ProductReview = () => {
       e.preventDefault();
       $("#m-video-overlay").addClass("open");
       $("#m-video-overlay").append(
-        '<iframe src="https://www.youtube.com/embed/K4TOrB7at0Y" width="853" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+        '<iframe src="https://www.youtube.com/embed/Mp2piaSdzRw" width="853" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
       );
     });
 
@@ -33,7 +35,7 @@ const ProductReview = () => {
 
   return (
     <>
-      <div className={styles.productStatistics}>
+      <div className={`${styles.productStatistics} m-productStatistics`}>
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -91,7 +93,7 @@ const ProductReview = () => {
               </div>
             </div>
 
-            <div className={styles.imgWrap}>
+            <div className={`${styles.imgWrap} m-product-review-imgWrap`}>
               <img src={"/assets/images/phones-banner.png"} />
             </div>
           </div>

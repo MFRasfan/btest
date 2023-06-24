@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import BlogSidebar from "@/app/containers/blog-sidebar";
 import styles from "./BlogPostWithSidebar.module.scss";
+import BlogSidebar from "../blog-sidebar";
 
 const BlogPostWithSidebar = ({ sidebarPosition }) => {
   return (

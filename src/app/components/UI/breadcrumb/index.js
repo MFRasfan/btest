@@ -6,13 +6,13 @@ const Breadcrumb = ({ title }) => {
 
   return (
     <div
-      className={styles.prBreadcrumbArea}
+      className={`${styles.prBreadcrumbArea} m-breadcrumb`}
     >
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <div className={`${styles.breadcrumbInner} text-left`}>
-              <h2 className={styles.breadcrumbTitle}>{title}</h2>
+              <h2 className={`${styles.breadcrumbTitle} m-breadcrumbTitle`}>{title}</h2>
             </div>
           </div>
         </div>

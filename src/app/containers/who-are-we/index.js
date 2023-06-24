@@ -10,7 +10,7 @@ const WhoAreWe = () => {
       <div className={styles.whoAreWeWrap}>
         <div className="row">
           <div className="col-lg-6">
-            <div className={styles.imgWrap}>
+            <div className={`${styles.imgWrap} m-imgWrap`}>
               <img src={"/assets/images/hero-image.jpg"} />
             </div>
           </div>

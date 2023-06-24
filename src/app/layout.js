@@ -6,6 +6,8 @@ import "../../public/assets/scss/basic/reset.scss";
 import "../../public/assets/scss/basic/helper-class.scss";
 import "../../public/assets/scss/basic/typography.scss";
 
+import "../../public/assets/css/responsive.css";
+
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
