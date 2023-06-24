@@ -99,11 +99,11 @@ const ContactFaqOne = () => {
             <div className={styles.faqInner}>
               <div className={styles.content}>
                 <h2>
-                  Request a Quote today!
+                  Request a FREE Quote today!*
                 </h2>
 
                 <p style={{ width: "86%" }}>
-                  Request a free no obligation Quote Today
+                  Discover Your Options with Our Free, No-Obligation Quotes
                 </p>
 
                 <form ref={form} onSubmit={handleActiveTab}>
@@ -145,7 +145,7 @@ const ContactFaqOne = () => {
 
                           <input
                             type="email"
-                            placeholder="eMail"
+                            placeholder="Email"
                             ref={emailRef}
                             name="email"
                             value={data.email}
@@ -179,7 +179,7 @@ const ContactFaqOne = () => {
 
                           <input
                             type="numeric"
-                            placeholder="Number Of Users"
+                            placeholder="No of Users"
                             ref={empNumRef}
                             value={data.empNum}
                             name="message"
