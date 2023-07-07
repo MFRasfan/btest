@@ -180,18 +180,18 @@ a.active {
 
                 margin: 0 0 5px;
                 a {
-                    font-size: 14px;
-
+                    font-size: 12px;
                     transition: all 0.3s ease 0s;
-
                     color: #035F91;
+                    line-height: 12px !important;
+
                     &:hover {
                         color: $hover-color;
                     }
                 }
             }
             span {
-                font-size: 12px;
+                font-size: 10px;
                 font-style: italic;
 
                 color: #035F91;
