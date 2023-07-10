@@ -1,4 +1,3 @@
-// import { Inter } from '@next/font/google'
 import React ,{Suspense} from "react";
 
 import "../../public/assets/scss/style.scss";
@@ -11,17 +10,14 @@ import "../../public/assets/css/responsive.css";
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-// import {  I18nextProvider } from 'react-i18next';
-// import i18n from './i18n';
-
 import Loader from "./components/loader";
 
-// const inter = Inter({ subsets: ['latin'] })
-
 export const metadata = {
-  title: 'Besanz',
-  description: 'Besanz, 100% Cloud-based Business Phone Solution.',
+  title: 'Cloud-Based Phone System Canada | Besanz.com',
+  description: 'Besanz offers reliable and affordable cloud-based phone system solutions in Canada with integration with CRM, 24/5 customer service, and the option to keep your own number',
 }
+
+
 
 export default function RootLayout({ children }) {
   return (

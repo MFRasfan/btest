@@ -44,6 +44,70 @@ const BlogSidebar = () => {
 
           <Tab.Content>
             <Tab.Pane eventKey="recent" className={styles.singleTabContent}>
+              
+              <div className={styles.recentPost}>
+                <div className={styles.thumb}>
+                  <Link href={"blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you"}>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-3.jpg"} alt="Phone Solution" />
+                  </Link>
+                </div>
+                <div className={styles.content}>
+                  <h4>
+                    <Link href={"blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you"}>
+                      Cloud-Based vs. On-Premise Business Phone Systems: Which One is Right for You?
+                    </Link>
+                  </h4>
+                  <span>21 June 2023</span>
+                </div>
+              </div>
+              
+              <div className={styles.recentPost}>
+                <div className={styles.thumb}>
+                  <Link href={"blog/blog-post/the-future-of-cloud-based-business-phone-solutions"}>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-6.jpg"} alt="Phone Solution" />
+                  </Link>
+                </div>
+                <div className={styles.content}>
+                  <h4>
+                    <Link href={"blog/blog-post/the-future-of-cloud-based-business-phone-solutions"}>
+                      The future of cloud-based business phone solutions
+                    </Link>
+                  </h4>
+                  <span>19 June 2023</span>
+                </div>
+              </div>
+
+              <div className={styles.recentPost}>
+                <div className={styles.thumb}>
+                  <Link href={"blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work"}>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-4.jpg"} alt="Phone Solution" />
+                  </Link>
+                </div>
+                <div className={styles.content}>
+                  <h4>
+                    <Link href={"blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work"}>
+                      The Benefits of Cloud-Based Business Phone Solutions for Remote and Hybrid Work
+                    </Link>
+                  </h4>
+                  <span>01 June 2023</span>
+                </div>
+              </div>
+
+              <div className={styles.recentPost}>
+                <div className={styles.thumb}>
+                  <Link href={"blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system"}>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-5.jpg"} alt="Phone Solution" />
+                  </Link>
+                </div>
+                <div className={styles.content}>
+                  <h4>
+                    <Link href={"blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system"}>
+                      The Security Benefits of a Cloud-Based Business Phone System
+                    </Link>
+                  </h4>
+                  <span>27 May 2023</span>
+                </div>
+              </div>
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
@@ -57,14 +121,14 @@ const BlogSidebar = () => {
                       The Cost Savings of Switching to a Cloud-Based Phone Solution
                     </Link>
                   </h4>
-                  <span>24 June 2023</span>
+                  <span>14 May 2023</span>
                 </div>
               </div>
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
                   <Link href={"blog/blog-post/how-a-cloud-based-phone-solution-can-revolutionize-your-business-communications"}>
-                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-2.jpg"} alt="Phone Solution"/>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-2.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
@@ -73,71 +137,7 @@ const BlogSidebar = () => {
                       How a Cloud-Based Phone Solution Can Revolutionize Your Business Communications
                     </Link>
                   </h4>
-                  <span>24 June 2023</span>
-                </div>
-              </div>
-
-              <div className={styles.recentPost}>
-                <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you"}>
-                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-3.jpg"} alt="Phone Solution"/>
-                  </Link>
-                </div>
-                <div className={styles.content}>
-                  <h4>
-                    <Link href={"blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you"}>
-                      Cloud-Based vs. On-Premise Business Phone Systems: Which One is Right for You?
-                    </Link>
-                  </h4>
-                  <span>24 June 2023</span>
-                </div>
-              </div>
-
-              <div className={styles.recentPost}>
-                <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work"}>
-                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-4.jpg"} alt="Phone Solution"/>
-                  </Link>
-                </div>
-                <div className={styles.content}>
-                  <h4>
-                    <Link href={"blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work"}>
-                      The Benefits of Cloud-Based Business Phone Solutions for Remote and Hybrid Work
-                    </Link>
-                  </h4>
-                  <span>24 June 2023</span>
-                </div>
-              </div>
-
-              <div className={styles.recentPost}>
-                <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system"}>
-                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-5.jpg"} alt="Phone Solution"/>
-                  </Link>
-                </div>
-                <div className={styles.content}>
-                  <h4>
-                    <Link href={"blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system"}>
-                      The Security Benefits of a Cloud-Based Business Phone System
-                    </Link>
-                  </h4>
-                  <span>24 June 2023</span>
-                </div>
-              </div>
-
-              <div className={styles.recentPost}>
-                <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/the-future-of-cloud-based-business-phone-solutions"}>
-                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-6.jpg"} alt="Phone Solution"/>
-                  </Link>
-                </div>
-                <div className={styles.content}>
-                  <h4>
-                    <Link href={"blog/blog-post/the-future-of-cloud-based-business-phone-solutions"}>
-                      The future of cloud-based business phone solutions
-                    </Link>
-                  </h4>
-                  <span>24 June 2023</span>
+                  <span>28 April 2023</span>
                 </div>
               </div>
             </Tab.Pane>
@@ -146,7 +146,7 @@ const BlogSidebar = () => {
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
                   <Link href={"blog/blog-post/the-cost-savings-of-switching-to-a-cloud-based-phone-solution"}>
-                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm.jpg"} alt="Phone Solution"/>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
@@ -155,14 +155,14 @@ const BlogSidebar = () => {
                       The Cost Savings of Switching to a Cloud-Based Phone Solution
                     </Link>
                   </h4>
-                  <span>24 June 2023</span>
+                  <span>14 May 2023</span>
                 </div>
               </div>
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
                   <Link href={"blog/blog-post/how-a-cloud-based-phone-solution-can-revolutionize-your-business-communications"}>
-                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-2.jpg"} alt="Phone Solution"/>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-2.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
@@ -171,14 +171,14 @@ const BlogSidebar = () => {
                       How a Cloud-Based Phone Solution Can Revolutionize Your Business Communications
                     </Link>
                   </h4>
-                  <span>24 June 2023</span>
+                  <span>28 April 2023</span>
                 </div>
               </div>
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
                   <Link href={"blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you"}>
-                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-3.jpg"} alt="Phone Solution"/>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-3.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
@@ -187,14 +187,14 @@ const BlogSidebar = () => {
                       Cloud-Based vs. On-Premise Business Phone Systems: Which One is Right for You?
                     </Link>
                   </h4>
-                  <span>24 June 2023</span>
+                  <span>21 June 2023</span>
                 </div>
               </div>
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
                   <Link href={"blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work"}>
-                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-4.jpg"} alt="Phone Solution"/>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-4.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
@@ -203,14 +203,14 @@ const BlogSidebar = () => {
                       The Benefits of Cloud-Based Business Phone Solutions for Remote and Hybrid Work
                     </Link>
                   </h4>
-                  <span>24 June 2023</span>
+                  <span>01 June 2023</span>
                 </div>
               </div>
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
                   <Link href={"blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system"}>
-                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-5.jpg"} alt="Phone Solution"/>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-5.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
@@ -219,14 +219,14 @@ const BlogSidebar = () => {
                       The Security Benefits of a Cloud-Based Business Phone System
                     </Link>
                   </h4>
-                  <span>24 June 2023</span>
+                  <span>27 May 2023</span>
                 </div>
               </div>
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
                   <Link href={"blog/blog-post/the-future-of-cloud-based-business-phone-solutions"}>
-                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-6.jpg"} alt="Phone Solution"/>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-6.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
@@ -235,11 +235,11 @@ const BlogSidebar = () => {
                       The future of cloud-based business phone solutions
                     </Link>
                   </h4>
-                  <span>24 June 2023</span>
+                  <span>19 June 2023</span>
                 </div>
               </div>
             </Tab.Pane>
-            
+
           </Tab.Content>
         </Tab.Container>
       </div>
