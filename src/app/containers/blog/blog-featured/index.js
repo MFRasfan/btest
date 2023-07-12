@@ -177,6 +177,62 @@ const BlogFeatured = () => {
           </div>
           {/* End  Single Banner  */}
 
+          {/* Start Single Banner  */}
+          <div className="col-12 col-sm-12 col-lg-6 mb-4">
+            <div className={`${styles.banner} ${styles.b11}`}>
+
+              <div className={styles.thumb}>
+                <img src={"/assets/images/blog/cloud-based-phone-solution-7.jpg"} alt="Phone Solution" />
+              </div>
+
+              <div className={styles.hoverAction}>
+                <div className={styles.bannerContent}>
+                  <span>Phone Solution</span>
+
+                  <h3>
+                    <Link href="blog/blog-post/unleashing-the-power-of-cloud-a-comparative-analysis-of-business-phone-systems">
+                      Unleashing the Power of Cloud: A Comparative Analysis of Business Phone Systems
+                    </Link>
+                  </h3>
+
+                  <div className={styles.bannerBtn}>
+                    <Button type="link" url="blog/blog-post/unleashing-the-power-of-cloud-a-comparative-analysis-of-business-phone-systems" text="Read More" />
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          {/* End  Single Banner  */}
+
+          {/* Start Single Banner  */}
+          <div className="col-12 col-sm-12 col-lg-6 mb-4">
+            <div className={`${styles.banner} ${styles.b11}`}>
+
+              <div className={styles.thumb}>
+                <img src={"/assets/images/blog/cloud-based-phone-solution-8.jpg"} alt="Phone Solution" />
+              </div>
+
+              <div className={styles.hoverAction}>
+                <div className={styles.bannerContent}>
+                  <span>Phone Solution</span>
+
+                  <h3>
+                    <Link href="blog/blog-post/beyond-the-desk-why-cloud-based-business-phone-solutions-are-changing-the-game">
+                      Beyond the Desk Why Cloud-Based Business Phone Solutions Are Changing the Game
+                    </Link>
+                  </h3>
+
+                  <div className={styles.bannerBtn}>
+                    <Button type="link" url="blog/blog-post/beyond-the-desk-why-cloud-based-business-phone-solutions-are-changing-the-game" text="Read More" />
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          {/* End  Single Banner  */}
+
         </div>
       </div>
     </div>

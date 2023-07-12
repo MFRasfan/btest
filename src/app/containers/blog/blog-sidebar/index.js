@@ -44,7 +44,39 @@ const BlogSidebar = () => {
 
           <Tab.Content>
             <Tab.Pane eventKey="recent" className={styles.singleTabContent}>
+
+              <div className={styles.recentPost}>
+                <div className={styles.thumb}>
+                  <Link href={"blog/blog-post/beyond-the-desk-why-cloud-based-business-phone-solutions-are-changing-the-game"}>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-8.jpg"} alt="Phone Solution" />
+                  </Link>
+                </div>
+                <div className={styles.content}>
+                  <h4>
+                    <Link href={"blog/blog-post/beyond-the-desk-why-cloud-based-business-phone-solutions-are-changing-the-game"}>
+                      Beyond the Desk Why Cloud-Based Business Phone Solutions Are Changing the Game
+                    </Link>
+                  </h4>
+                  <span>12 July 2023</span>
+                </div>
+              </div>
               
+              <div className={styles.recentPost}>
+                <div className={styles.thumb}>
+                  <Link href={"blog/blog-post/unleashing-the-power-of-cloud-a-comparative-analysis-of-business-phone-systems"}>
+                    <img src={"/assets/images/blog/cloud-based-phone-solution-sm-7.jpg"} alt="Phone Solution" />
+                  </Link>
+                </div>
+                <div className={styles.content}>
+                  <h4>
+                    <Link href={"blog/blog-post/unleashing-the-power-of-cloud-a-comparative-analysis-of-business-phone-systems"}>
+                      Unleashing the Power of Cloud: A Comparative Analysis of Business Phone Systems
+                    </Link>
+                  </h4>
+                  <span>12 July 2023</span>
+                </div>
+              </div>
+
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
                   <Link href={"blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you"}>
@@ -109,7 +141,7 @@ const BlogSidebar = () => {
                 </div>
               </div>
 
-              <div className={styles.recentPost}>
+              {/* <div className={styles.recentPost}>
                 <div className={styles.thumb}>
                   <Link href={"blog/blog-post/the-cost-savings-of-switching-to-a-cloud-based-phone-solution"}>
                     <img src={"/assets/images/blog/cloud-based-phone-solution-sm.jpg"} alt="Phone Solution" />
@@ -139,7 +171,7 @@ const BlogSidebar = () => {
                   </h4>
                   <span>28 April 2023</span>
                 </div>
-              </div>
+              </div> */}
             </Tab.Pane>
 
             <Tab.Pane eventKey="trending" className={styles.singleTabContent}>
