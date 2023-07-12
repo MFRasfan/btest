@@ -57,7 +57,7 @@ const BlogSidebar = () => {
                       Beyond the Desk Why Cloud-Based Business Phone Solutions Are Changing the Game
                     </Link>
                   </h4>
-                  <span>12 July 2023</span>
+                  <span>5 July 2023</span>
                 </div>
               </div>
               
@@ -73,7 +73,7 @@ const BlogSidebar = () => {
                       Unleashing the Power of Cloud: A Comparative Analysis of Business Phone Systems
                     </Link>
                   </h4>
-                  <span>12 July 2023</span>
+                  <span>3 July 2023</span>
                 </div>
               </div>
 
