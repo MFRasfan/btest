@@ -13,10 +13,11 @@ const ServiceTwoSingle = ({ data, styles }) => {
           <img
             src={`/assets/images/features/${data.icon}`}
             style={{ width: 100, height: 100 }}
+            alt="video conferencing feature"
           />
         </div>
         <div className={styles.content}>
-          <h2>{data.title.en}</h2>
+          <h3>{data.title.en}</h3>
           <p>{data.text.en}</p>
         </div>
       </div>

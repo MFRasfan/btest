@@ -9,13 +9,13 @@ const LoginImage =()=>{
  
     return (
       <Container  className="justify-content-center mx-30 mb-10"  style={{ustifyContent:'center', alignItems:"center"}}>
-        <h1 className='text-center' style={{color:"#233146"}}>
+        <h2 className='text-center' style={{color:'#233146', fontSize: '55px'}}>
           Integrations
-        </h1>
-
-        <h2 className='text-center mb-5' >
-          100 + CRM & MIS connects to grow your business
         </h2>
+
+        <h3 className='text-center mb-5' >
+          100 + CRM & MIS connects to grow your business
+        </h3>
 
         <Row className="justify-content-md-center" style={{marginLeft:"6%"}}>
           {crmData &&

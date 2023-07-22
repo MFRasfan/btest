@@ -6,6 +6,11 @@ import PricingTableOne from "../containers/pricing-tables/pricing-table-one";
 import {annualPriceData, monthlyPriceData, annualOnePriceData,monthlyOnePriceData } from "../data/pricing-tables/pricedetail";
 import Breadcrumb from "../components/UI/breadcrumb";
 
+export const metadata = {
+  title: 'Cloud-Based Phone System Canada | Besanz.com',
+  description: 'Besanz is a trusted provider of smart business phone solutions in North America. Explore our innovative systems and unlock the full potential of your business. ',
+}
+
 const Comparison = () => {
   
   return (

@@ -5,19 +5,19 @@ function Slider() {
   return (
     <ImageSlider effectDelay={500} autoPlayDelay={2000}>
       <Slide>
-        <img alt="img2" src={'/assets/images/phonepartners/cisco.png'} />
+        <img alt="cisco" src={'/assets/images/phonepartners/cisco.png'} />
       </Slide>
       <Slide>
-        <img alt="img2" src={'/assets/images/phonepartners/grandstream.png'} />
+        <img alt="grandstream" src={'/assets/images/phonepartners/grandstream.png'} />
       </Slide>
       <Slide>
-        <img alt="img1" src={'/assets/images/phonepartners/Polycom.png'} />
+        <img alt="Polycom" src={'/assets/images/phonepartners/Polycom.png'} />
       </Slide>
       <Slide>
-        <img alt="img1" src={'/assets/images/phonepartners/Snom.png'} />
+        <img alt="Snom" src={'/assets/images/phonepartners/Snom.png'} />
       </Slide>
       <Slide>
-        <img alt="img1" src={'/assets/images/phonepartners/Yealink.png'} />
+        <img alt="Yealink" src={'/assets/images/phonepartners/Yealink.png'} />
       </Slide>
     </ImageSlider>
   );

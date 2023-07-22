@@ -5,8 +5,8 @@ import styles from "./SectionTitle.module.scss";
 const SectionTitle = ({ title, text, textAlign }) => {
   return (
     <div className={`${textAlign === "left" ? "text-left" : "text-center"} ${styles.sectionTitle}`}>
-      <span>{title}</span>
-      {text ? <h2>{text}</h2> : ""}
+      <h2>{title}</h2>
+      {text ? <h3>{text}</h3> : ""}
     </div>
   );
 };

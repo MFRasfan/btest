@@ -17,7 +17,7 @@ const HeaderBtn = ({ styles }) => {
       <div className="desktop-button-wrapper d-none d-lg-block" >
         <Button  
           type="link" 
-          url="request-demo" 
+          url="/request-demo" 
           text="Request Demo"
           btnStyle="white"  />
 

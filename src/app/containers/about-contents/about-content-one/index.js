@@ -27,7 +27,7 @@ const AboutContentOne = () => {
       <div className={styles.aboutThumb}>
         <img
           src={"/assets/images/app.png"}
-          alt="voopo voip"
+          alt="Smartest phone solutions in North America"
         />
       </div>
     </div>

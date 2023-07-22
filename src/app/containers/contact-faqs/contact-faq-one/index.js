@@ -74,12 +74,13 @@ const ContactFaqOne = () => {
           <div className="col-12 col-lg-5">
             <div className={styles.faqInner}>
               <div className={styles.content}>
-                <h2>
+                <h1>
                   North America's Smartest Business Phone Solution
-                </h2>
+                </h1>
                 <img
                   src={"/assets/images/quote.png"}
                   className="d-none d-lg-block"
+                  alt="A woman  holding a laptop, representing the Besanz customer service team."
                   style={{
                     width: "80%",
                     height: "80%",

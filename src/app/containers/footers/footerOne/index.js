@@ -76,9 +76,9 @@ const Footer = ({ footerBg }) => {
             {/* Start Single Wedget */}
             <div className="col-12 col-sm-6 col-lg-2 offset-lg-1 xs__mt--40">
               <div className={`${styles.singleWidget} m-singleWidget`}>
-                <h2 className={styles.ftTitle}>
+                <h3 className={styles.ftTitle}>
                   Navigation
-                </h2>
+                </h3>
                 <ul className={styles.ftContactLink}>
                   <li>
                     <Link href="/">
@@ -107,9 +107,9 @@ const Footer = ({ footerBg }) => {
             {/* Start Single Wedget */}
             <div className="col-lg-2 offset-lg-1 col-md-6 col-sm-6 col-12 sm__mt--40 md__mt--40">
               <div className={`${styles.singleWidget} m-singleWidget`}>
-                <h2 className={styles.ftTitle}>
+                <h3 className={styles.ftTitle}>
                   BESANZ Info
-                </h2>
+                </h3>
                 <ul className={styles.ftContactLink}>
 
                   <li>
@@ -140,9 +140,9 @@ const Footer = ({ footerBg }) => {
             {/* Start Single Wedget */}
             <div className="col-lg-2 offset-lg-1 col-md-6 col-sm-6 col-12 sm__mt--40 md__mt--40">
               <div className={`${styles.singleWidget} m-singleWidget`}>
-                <h2 className={styles.ftTitle}>
+                <h3 className={styles.ftTitle}>
                   Resources
-                </h2>
+                </h3>
                 <ul className={styles.ftContactLink}>
                   <li>
                     <Link href="https://395c0d4bb6.appchemist.io/" target="_blank">
@@ -150,7 +150,7 @@ const Footer = ({ footerBg }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.besanz.com/customer-login" target="_blank">
+                    <Link href="https://besanz.simplelogin.net/" target="_blank">
                       Login
                     </Link>
                   </li>

@@ -15,7 +15,7 @@ const FeatureImageTextOne = () => {
             <div className={styles.thumb}>
               <img
                 src={"/assets/images/aboutus.png"}
-                alt="voopo voip"
+                alt="Experience the power of smart business phone solutions"
               />
             </div>
           </div>

@@ -47,13 +47,13 @@ const BlogSidebar = () => {
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/beyond-the-desk-why-cloud-based-business-phone-solutions-are-changing-the-game"}>
+                  <Link href={"/blog/blog-post/beyond-the-desk-why-cloud-based-business-phone-solutions-are-changing-the-game"}>
                     <img src={"/assets/images/blog/cloud-based-phone-solution-sm-8.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"blog/blog-post/beyond-the-desk-why-cloud-based-business-phone-solutions-are-changing-the-game"}>
+                    <Link href={"/blog/blog-post/beyond-the-desk-why-cloud-based-business-phone-solutions-are-changing-the-game"}>
                       Beyond the Desk Why Cloud-Based Business Phone Solutions Are Changing the Game
                     </Link>
                   </h4>
@@ -63,13 +63,13 @@ const BlogSidebar = () => {
               
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/unleashing-the-power-of-cloud-a-comparative-analysis-of-business-phone-systems"}>
+                  <Link href={"/blog/blog-post/unleashing-the-power-of-cloud-a-comparative-analysis-of-business-phone-systems"}>
                     <img src={"/assets/images/blog/cloud-based-phone-solution-sm-7.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"blog/blog-post/unleashing-the-power-of-cloud-a-comparative-analysis-of-business-phone-systems"}>
+                    <Link href={"/blog/blog-post/unleashing-the-power-of-cloud-a-comparative-analysis-of-business-phone-systems"}>
                       Unleashing the Power of Cloud: A Comparative Analysis of Business Phone Systems
                     </Link>
                   </h4>
@@ -79,13 +79,13 @@ const BlogSidebar = () => {
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you"}>
+                  <Link href={"/blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you"}>
                     <img src={"/assets/images/blog/cloud-based-phone-solution-sm-3.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you"}>
+                    <Link href={"/blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you"}>
                       Cloud-Based vs. On-Premise Business Phone Systems: Which One is Right for You?
                     </Link>
                   </h4>
@@ -95,13 +95,13 @@ const BlogSidebar = () => {
               
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/the-future-of-cloud-based-business-phone-solutions"}>
+                  <Link href={"/blog/blog-post/the-future-of-cloud-based-business-phone-solutions"}>
                     <img src={"/assets/images/blog/cloud-based-phone-solution-sm-6.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"blog/blog-post/the-future-of-cloud-based-business-phone-solutions"}>
+                    <Link href={"/blog/blog-post/the-future-of-cloud-based-business-phone-solutions"}>
                       The future of cloud-based business phone solutions
                     </Link>
                   </h4>
@@ -111,13 +111,13 @@ const BlogSidebar = () => {
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work"}>
+                  <Link href={"/blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work"}>
                     <img src={"/assets/images/blog/cloud-based-phone-solution-sm-4.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work"}>
+                    <Link href={"/blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work"}>
                       The Benefits of Cloud-Based Business Phone Solutions for Remote and Hybrid Work
                     </Link>
                   </h4>
@@ -127,13 +127,13 @@ const BlogSidebar = () => {
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system"}>
+                  <Link href={"/blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system"}>
                     <img src={"/assets/images/blog/cloud-based-phone-solution-sm-5.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system"}>
+                    <Link href={"/blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system"}>
                       The Security Benefits of a Cloud-Based Business Phone System
                     </Link>
                   </h4>
@@ -177,13 +177,13 @@ const BlogSidebar = () => {
             <Tab.Pane eventKey="trending" className={styles.singleTabContent}>
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/the-cost-savings-of-switching-to-a-cloud-based-phone-solution"}>
+                  <Link href={"/blog/blog-post/the-cost-savings-of-switching-to-a-cloud-based-phone-solution"}>
                     <img src={"/assets/images/blog/cloud-based-phone-solution-sm.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"blog/blog-post/the-cost-savings-of-switching-to-a-cloud-based-phone-solution"}>
+                    <Link href={"/blog/blog-post/the-cost-savings-of-switching-to-a-cloud-based-phone-solution"}>
                       The Cost Savings of Switching to a Cloud-Based Phone Solution
                     </Link>
                   </h4>
@@ -193,13 +193,13 @@ const BlogSidebar = () => {
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/how-a-cloud-based-phone-solution-can-revolutionize-your-business-communications"}>
+                  <Link href={"/blog/blog-post/how-a-cloud-based-phone-solution-can-revolutionize-your-business-communications"}>
                     <img src={"/assets/images/blog/cloud-based-phone-solution-sm-2.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"blog/blog-post/how-a-cloud-based-phone-solution-can-revolutionize-your-business-communications"}>
+                    <Link href={"/blog/blog-post/how-a-cloud-based-phone-solution-can-revolutionize-your-business-communications"}>
                       How a Cloud-Based Phone Solution Can Revolutionize Your Business Communications
                     </Link>
                   </h4>
@@ -209,13 +209,13 @@ const BlogSidebar = () => {
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you"}>
+                  <Link href={"/blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you"}>
                     <img src={"/assets/images/blog/cloud-based-phone-solution-sm-3.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you"}>
+                    <Link href={"/blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you"}>
                       Cloud-Based vs. On-Premise Business Phone Systems: Which One is Right for You?
                     </Link>
                   </h4>
@@ -225,13 +225,13 @@ const BlogSidebar = () => {
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work"}>
+                  <Link href={"/blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work"}>
                     <img src={"/assets/images/blog/cloud-based-phone-solution-sm-4.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work"}>
+                    <Link href={"/blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work"}>
                       The Benefits of Cloud-Based Business Phone Solutions for Remote and Hybrid Work
                     </Link>
                   </h4>
@@ -241,13 +241,13 @@ const BlogSidebar = () => {
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system"}>
+                  <Link href={"/blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system"}>
                     <img src={"/assets/images/blog/cloud-based-phone-solution-sm-5.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system"}>
+                    <Link href={"/blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system"}>
                       The Security Benefits of a Cloud-Based Business Phone System
                     </Link>
                   </h4>
@@ -257,13 +257,13 @@ const BlogSidebar = () => {
 
               <div className={styles.recentPost}>
                 <div className={styles.thumb}>
-                  <Link href={"blog/blog-post/the-future-of-cloud-based-business-phone-solutions"}>
+                  <Link href={"/blog/blog-post/the-future-of-cloud-based-business-phone-solutions"}>
                     <img src={"/assets/images/blog/cloud-based-phone-solution-sm-6.jpg"} alt="Phone Solution" />
                   </Link>
                 </div>
                 <div className={styles.content}>
                   <h4>
-                    <Link href={"blog/blog-post/the-future-of-cloud-based-business-phone-solutions"}>
+                    <Link href={"/blog/blog-post/the-future-of-cloud-based-business-phone-solutions"}>
                       The future of cloud-based business phone solutions
                     </Link>
                   </h4>

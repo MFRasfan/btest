@@ -22,13 +22,13 @@ const BlogFeatured = () => {
                   <span>Phone Solution</span>
 
                   <h3>
-                    <Link href="blog/blog-post/the-cost-savings-of-switching-to-a-cloud-based-phone-solution">
+                    <Link href="/blog/blog-post/the-cost-savings-of-switching-to-a-cloud-based-phone-solution">
                       The Cost Savings of Switching to a Cloud-Based Phone Solution
                     </Link>
                   </h3>
 
                   <div className={styles.bannerBtn}>
-                    <Button type="link" url="blog/blog-post/the-cost-savings-of-switching-to-a-cloud-based-phone-solution" text="Read More" />
+                    <Button type="link" url="/blog/blog-post/the-cost-savings-of-switching-to-a-cloud-based-phone-solution" text="Read More" />
                   </div>
                 </div>
               </div>
@@ -50,13 +50,13 @@ const BlogFeatured = () => {
                   <span>Phone Solution</span>
 
                   <h3>
-                    <Link href="blog/blog-post/how-a-cloud-based-phone-solution-can-revolutionize-your-business-communications">
+                    <Link href="/blog/blog-post/how-a-cloud-based-phone-solution-can-revolutionize-your-business-communications">
                       How a Cloud-Based Phone Solution Can Revolutionize Your Business Communications
                     </Link>
                   </h3>
 
                   <div className={styles.bannerBtn}>
-                    <Button type="link" url="blog/blog-post/how-a-cloud-based-phone-solution-can-revolutionize-your-business-communications" text="Read More" />
+                    <Button type="link" url="/blog/blog-post/how-a-cloud-based-phone-solution-can-revolutionize-your-business-communications" text="Read More" />
                   </div>
                 </div>
               </div>
@@ -78,13 +78,13 @@ const BlogFeatured = () => {
                   <span>Phone Solution</span>
 
                   <h3>
-                    <Link href="blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you">
+                    <Link href="/blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you">
                       Cloud-Based vs. On-Premise Business Phone Systems: Which One is Right for You?
                     </Link>
                   </h3>
 
                   <div className={styles.bannerBtn}>
-                    <Button type="link" url="blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you" text="Read More" />
+                    <Button type="link" url="/blog/blog-post/cloud-based-on-premise-business-phone-systems-which-one-is-right-for-you" text="Read More" />
                   </div>
                 </div>
               </div>
@@ -106,13 +106,13 @@ const BlogFeatured = () => {
                   <span>Phone Solution</span>
 
                   <h3>
-                    <Link href="blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work">
+                    <Link href="/blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work">
                       The Benefits of Cloud-Based Business Phone Solutions for Remote and Hybrid Work
                     </Link>
                   </h3>
 
                   <div className={styles.bannerBtn}>
-                    <Button type="link" url="blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work" text="Read More" />
+                    <Button type="link" url="/blog/blog-post/the-benefits-of-cloud-based-business-phone-solutions-for-remote-and-hybrid-work" text="Read More" />
                   </div>
                 </div>
               </div>
@@ -134,13 +134,13 @@ const BlogFeatured = () => {
                   <span>Phone Solution</span>
 
                   <h3>
-                    <Link href="blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system">
+                    <Link href="/blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system">
                       The Security Benefits of a Cloud-Based Business Phone System
                     </Link>
                   </h3>
 
                   <div className={styles.bannerBtn}>
-                    <Button type="link" url="blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system" text="Read More" />
+                    <Button type="link" url="/blog/blog-post/the-security-benefits-of-a-loud-based-business-phone-system" text="Read More" />
                   </div>
                 </div>
               </div>
@@ -162,13 +162,13 @@ const BlogFeatured = () => {
                   <span>Phone Solution</span>
 
                   <h3>
-                    <Link href="blog/blog-post/the-future-of-cloud-based-business-phone-solutions">
+                    <Link href="/blog/blog-post/the-future-of-cloud-based-business-phone-solutions">
                       The future of cloud-based business phone solutions
                     </Link>
                   </h3>
 
                   <div className={styles.bannerBtn}>
-                    <Button type="link" url="blog/blog-post/the-future-of-cloud-based-business-phone-solutions" text="Read More" />
+                    <Button type="link" url="/blog/blog-post/the-future-of-cloud-based-business-phone-solutions" text="Read More" />
                   </div>
                 </div>
               </div>
@@ -190,13 +190,13 @@ const BlogFeatured = () => {
                   <span>Phone Solution</span>
 
                   <h3>
-                    <Link href="blog/blog-post/unleashing-the-power-of-cloud-a-comparative-analysis-of-business-phone-systems">
+                    <Link href="/blog/blog-post/unleashing-the-power-of-cloud-a-comparative-analysis-of-business-phone-systems">
                       Unleashing the Power of Cloud: A Comparative Analysis of Business Phone Systems
                     </Link>
                   </h3>
 
                   <div className={styles.bannerBtn}>
-                    <Button type="link" url="blog/blog-post/unleashing-the-power-of-cloud-a-comparative-analysis-of-business-phone-systems" text="Read More" />
+                    <Button type="link" url="/blog/blog-post/unleashing-the-power-of-cloud-a-comparative-analysis-of-business-phone-systems" text="Read More" />
                   </div>
                 </div>
               </div>
@@ -218,13 +218,13 @@ const BlogFeatured = () => {
                   <span>Phone Solution</span>
 
                   <h3>
-                    <Link href="blog/blog-post/beyond-the-desk-why-cloud-based-business-phone-solutions-are-changing-the-game">
+                    <Link href="/blog/blog-post/beyond-the-desk-why-cloud-based-business-phone-solutions-are-changing-the-game">
                       Beyond the Desk Why Cloud-Based Business Phone Solutions Are Changing the Game
                     </Link>
                   </h3>
 
                   <div className={styles.bannerBtn}>
-                    <Button type="link" url="blog/blog-post/beyond-the-desk-why-cloud-based-business-phone-solutions-are-changing-the-game" text="Read More" />
+                    <Button type="link" url="/blog/blog-post/beyond-the-desk-why-cloud-based-business-phone-solutions-are-changing-the-game" text="Read More" />
                   </div>
                 </div>
               </div>

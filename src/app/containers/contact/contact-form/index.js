@@ -63,7 +63,7 @@ const ContactForm = () => {
           </div>
           <div className="col-12 col-md-6 col-lg-5 offset-lg-1">
             <div className={styles.contactThumb}>
-              <img src={`/assets/images/contact.png`} alt="voopo voip" />
+              <img src={`/assets/images/contact.png`} alt="Seamless integration with North American business operations" />
             </div>
           </div>
         </div>

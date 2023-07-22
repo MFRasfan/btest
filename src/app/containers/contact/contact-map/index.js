@@ -10,9 +10,9 @@ const ContactMap = () => {
         <div className="row">
           <div className="col-12 col-md-7 col-lg-5">
             <div className={styles.vpContactAddress}>
-              <h2>
+              <h3>
                 Our Contact Info
-              </h2>
+              </h3>
               <div className="vp__address__container">
                 {/* Start Single Address */}
                 <div className={styles.vpAddress}>

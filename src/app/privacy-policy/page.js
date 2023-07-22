@@ -4,6 +4,11 @@ import Breadcrumb from "../components/UI/breadcrumb";
 
 import PrivacyContent from "../containers/privacypolicy/privacyContent";
 
+export const metadata = {
+  title: 'Cloud-Based Phone System Canada | Besanz.com',
+  description: 'Besanz offers reliable and affordable cloud-based phone system solutions in Canada with integration with CRM, 24/5 customer service, and the option to keep your own number',
+}
+
 const PrivacyPolicy = () => {
 
   return (

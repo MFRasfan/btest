@@ -12,10 +12,10 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import Loader from "./components/loader";
 
-export const metadata = {
-  title: 'Cloud-Based Phone System Canada | Besanz.com',
-  description: 'Besanz offers reliable and affordable cloud-based phone system solutions in Canada with integration with CRM, 24/5 customer service, and the option to keep your own number',
-}
+// export const metadata = {
+//   title: 'Cloud-Based Phone System Canada | Besanz.com',
+//   description: 'Besanz offers reliable and affordable cloud-based phone system solutions in Canada with integration with CRM, 24/5 customer service, and the option to keep your own number',
+// }
 
 
 

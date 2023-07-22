@@ -5,6 +5,11 @@ import FeatureImageTextOne from "../containers/feature-image-texts/feature-image
 import AboutContentOne from "../containers/about-contents/about-content-one";
 // import TestimonialOne from "../containers/testimonials/testimonial-one";
 
+export const metadata = {
+  title: 'Cloud-Based Phone System Canada | Besanz.com',
+  description: 'No matter what size or industry your business is in, Besanz has a smart phone solution that suits your needs. ',
+}
+
 const About = () => {
   return (
     <Fragment>

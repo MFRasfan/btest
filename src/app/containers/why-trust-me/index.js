@@ -243,31 +243,31 @@ const WhyTrustMe = () => {
             <div className={styles.clientLogoWrap}>
               <Slider {...clientSettings}>
                 <div className={styles.slide}>
-                  <img src={"/assets/images/phonepartners/cisco.png"} className={styles.cisco} />
+                  <img src={"/assets/images/phonepartners/cisco.png"} className={styles.cisco} alt="cisco" />
                 </div>
 
                 <div className={styles.slide}>
-                  <img src={"/assets/images/phonepartners/Polycom.png"} className={styles.polycom} />
+                  <img src={"/assets/images/phonepartners/Polycom.png"} className={styles.polycom} alt="Polycom" />
                 </div>
 
                 <div className={styles.slide}>
-                  <img src={"/assets/images/phonepartners/Snom.png"} />
+                  <img src={"/assets/images/phonepartners/Snom.png"} alt="Snom" />
                 </div>
 
                 <div className={styles.slide}>
-                  <img src={"/assets/images/phonepartners/Yealink.png"} />
+                  <img src={"/assets/images/phonepartners/Yealink.png"} alt="Yealink" />
                 </div>
 
                 <div className={styles.slide}>
-                  <img src={"/assets/images/phonepartners/grandstream.png"} />
+                  <img src={"/assets/images/phonepartners/grandstream.png"} alt="grandstream" />
                 </div>
 
                 <div className={styles.slide}>
-                  <img src={"/assets/images/phonepartners/avaya.png"} />
+                  <img src={"/assets/images/phonepartners/avaya.png"} alt="avaya" />
                 </div>
 
                 <div className={styles.slide}>
-                  <img src={"/assets/images/phonepartners/algo.png"} />
+                  <img src={"/assets/images/phonepartners/algo.png"} alt="algo" />
                 </div>
               </Slider>
             </div>
