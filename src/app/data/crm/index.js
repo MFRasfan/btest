@@ -127,7 +127,7 @@ export const crmData=[
 {
     id:Math.random(),
     name:"Google Search",
-    url:"https://gooogle.com",
+    url:"https://google.com",
     image:"/assets/images/crm/Google Search.png"
 },{
     id:Math.random(),
