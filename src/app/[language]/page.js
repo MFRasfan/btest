@@ -12,10 +12,10 @@ const metadata = {
   description: 'Besanz offers reliable and affordable cloud-based phone system solutions in Canada with integration with CRM, 24/5 customer service, and the option to keep your own number',
 }
 
-const Home = () => {
+const Home = ({ params }) => {
   return (
     <Fragment>
-      <LayoutOne footerBg="white">
+      <LayoutOne footerBg="white" language={params?.language}>
 
         <Head>
           <title>{metadata.title}</title>
@@ -35,9 +35,9 @@ const Home = () => {
           {/* <meta name="twitter:creator" content="@besanzcom" /> */}
         </Head>
         {/* QUOTE PAGE IS BUILD MODIFYING CONTACT FAQ ONE */}
-        <ContactFaqOne />
-        <PriceSelector />
-        <ServiceThree />
+        <ContactFaqOne language={params?.language} />
+        <PriceSelector language={params?.language} />
+        <ServiceThree language={params?.language} />
 
       </LayoutOne>
     </Fragment>

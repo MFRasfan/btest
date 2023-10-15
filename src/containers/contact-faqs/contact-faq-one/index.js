@@ -4,10 +4,12 @@ import Link from "next/link";
 import Button from "@/components/UI/button";
 import "./index.css";
 import emailjs from "@emailjs/browser";
+import getTextHome from "@/language/i18/home/getTextHome";
+import generateUrl from "@/helpers/generateUrl";
 
 
 //  pt--50
-const ContactFaqOne = () => {
+const ContactFaqOne = ({ language }) => {
 
   const [data, setdata] = useState({});
   const nameRef = useRef(null);
@@ -75,7 +77,7 @@ const ContactFaqOne = () => {
             <div className={styles.faqInner}>
               <div className={styles.content}>
                 <h1>
-                  North America's Smartest Business Phone Solution
+                  {getTextHome('Brand', language)}
                 </h1>
                 <img
                   src={"/assets/images/quote.png"}
@@ -89,7 +91,7 @@ const ContactFaqOne = () => {
                   }}
                 />
                 <p>
-                  Our Cloud-Hosted Phone System Streamlines Communication, Improves Productivity, and Reduces Costs. Get our 100% Cloud-Based Business Phone Solution with Advanced Features, Scalability, and Reliability.
+                  {getTextHome('description', language)}
                 </p>
               </div>
             </div>
@@ -100,11 +102,11 @@ const ContactFaqOne = () => {
             <div className={styles.faqInner}>
               <div className={styles.content}>
                 <h2>
-                  Request a FREE Quote today!*
+                  {getTextHome('title', language)}*
                 </h2>
 
                 <p style={{ width: "86%" }}>
-                  Discover Your Options with Our Free, No-Obligation Quotes
+                  {getTextHome('subtitle', language)}
                 </p>
 
                 <form ref={form} onSubmit={handleActiveTab}>
@@ -115,7 +117,7 @@ const ContactFaqOne = () => {
                           <input
                             type="text"
                             ref={nameRef}
-                            placeholder="Name"
+                            placeholder={getTextHome('Name', language)}
                             name="from_name"
                             value={data.name}
                             onChange={(e) =>
@@ -129,7 +131,7 @@ const ContactFaqOne = () => {
                           {/* */}
                           <input
                             type="numeric"
-                            placeholder="Phone Number"
+                            placeholder={getTextHome('PhoneNumber', language)}
                             name="message"
                             ref={phoneRef}
                             value={data.phone}
@@ -164,7 +166,7 @@ const ContactFaqOne = () => {
                         <div className={styles.inputBox}>
                           <input
                             type="text"
-                            placeholder="Company Name"
+                            placeholder={getTextHome('companyName', language)}
                             ref={companyNameRef}
                             name="message"
                             value={data.companyName}
@@ -180,7 +182,7 @@ const ContactFaqOne = () => {
 
                           <input
                             type="numeric"
-                            placeholder="No of Users"
+                            placeholder={getTextHome('NumberOfUsers', language)}
                             ref={empNumRef}
                             value={data.empNum}
                             name="message"
@@ -209,7 +211,7 @@ const ContactFaqOne = () => {
                           className="checkbox-label"
                           for="receiveMarketingEmail"
                         >
-                          Yes, I would like to receive marketing communications about Besanz products, knowledge content and events
+                          {getTextHome('marketingCheck', language)}
                         </label>
                       </div>
 
@@ -224,10 +226,10 @@ const ContactFaqOne = () => {
                           className="checkbox-label"
                           for="privacy-policy"
                         >
-                          You confirm that you have read and acknowledged Besanz's
+                          {getTextHome('privacyPolicyCheck', language)}
                           <br />
-                          <Link href="/privacy-policy" className="link">
-                            Privacy Policy
+                          <Link href={generateUrl("/privacy-policy", language)} className="link">
+                            {getTextHome("privacyPolicy", language)}
                           </Link>{" "}
                         </label>
                       </div>

@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React, { Fragment } from "react";
-import Header from "../../containers/headers/headerOne";
-import Footer from "../../containers/footers/footerOne";
+import Header from "@/containers/headers/headerOne";
+import Footer from "@/containers/footers/footerOne";
 
 const LayoutOne = ({ children, footerBg, language }) => {
   return (

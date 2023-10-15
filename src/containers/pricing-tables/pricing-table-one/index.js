@@ -1,14 +1,15 @@
 import PropTypes from "prop-types";
 import React from "react";
 import SectionTitle from "@/components/UI/section-title/section-title-one";
-import PricingTableOneSingle from "../../../components/pricing-tables/pricing-table-one/index.js";
+import PricingTableOneSingle from "@/components/pricing-tables/pricing-table-one/index.js";
 import styles from "./PricingTableOne.module.scss";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import getTextSubscription from "@/language/i18/subscription/getTextSubscription";
 
 const bgImg = "/assets/images/bg/1.jpg";
-const PricingTableOne = ({ background, data, type }) => {
+const PricingTableOne = ({ background, data, type, language }) => {
   return (
     <div className="voopo__picing__area pt--50 pb--120 bgImg"
       style={
@@ -22,8 +23,8 @@ const PricingTableOne = ({ background, data, type }) => {
           <div className="col-lg-12">
             {/* section title */}
             <SectionTitle
-              title="Our Subscription Plans"
-              text={`${type === "annual" ? "Save More with Annual Plans" : "Have the Flex with Monthly Plans"} `} />
+              title={getTextSubscription("ourSubscriptionPlans", language)}
+              text={`${type === "annual" ? getTextSubscription("annualSubscriptionPlanHeading", language) : getTextSubscription("monthlySubscriptionPlanHeading", language)} `} />
           </div>
         </div>
         <div className="row mt--30">
@@ -35,6 +36,7 @@ const PricingTableOne = ({ background, data, type }) => {
                   return (
                     <Col xs={12} md={6} lg={3} xl={3} className='h-price-selecter'>
                       <PricingTableOneSingle
+                        language={language}
                         data={single}
                         key={key}
                         type={type}

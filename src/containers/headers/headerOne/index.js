@@ -82,7 +82,7 @@ const Header = ({ language }) => {
 							</div>
 							<div className="col-lg-7 d-none d-lg-block">
 								{/* navigation */}
-								<Navigation />
+								<Navigation language={language} />
 							</div>
 						</div>
 					</div>

@@ -6,7 +6,6 @@ const renderTermsAndConditionTemplate = () => {
 
     var renderString = '<div>'
 
-    console.log(Data)
     for (let i = 0; i < Data.length; i++) {
         let item = Data[i]
         renderString += `  <h2>  ${item.titleNo} ${item.title}  </h2>`

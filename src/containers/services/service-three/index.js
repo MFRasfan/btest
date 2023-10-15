@@ -7,7 +7,7 @@ import "./index.css";
 import $ from "jquery";
 // import "jquery-ui-dist/jquery-ui";
 
-const ServiceThree = () => {
+const ServiceThree = ({ language }) => {
 
   useEffect(() => {
     $("#m-play-video").on("click", function (e) {
@@ -34,6 +34,10 @@ const ServiceThree = () => {
     }
   }, [])
 
+  function getTransaltedContent(obj) {
+    if (!language || language == null || language == "") return obj.en;
+    return obj[language]
+  }
 
   return (
     <div className="voopo__service__video">
@@ -75,12 +79,12 @@ const ServiceThree = () => {
                           backgroundImage: `url(/assets/images/icons/${serviceData.serviceContentIcon}))`,
                         }}
                       />
-                      <h2>{serviceData.serviceTitle.en}</h2>
+                      <h2>{getTransaltedContent(serviceData.serviceTitle)}</h2>
                       <div />
-                      <p>{serviceData.serviceContent.en}</p>
-                      <p>{serviceData.serviceContent2.en}</p>
-                      <p>{serviceData.serviceContent6.en}</p>
-                      <p>{serviceData.serviceContent7.en}</p>
+                      <p>{getTransaltedContent(serviceData.serviceContent)}</p>
+                      <p>{getTransaltedContent(serviceData.serviceContent2)}</p>
+                      <p>{getTransaltedContent(serviceData.serviceContent6)}</p>
+                      <p>{getTransaltedContent(serviceData.serviceContent7)}</p>
                     </div>
                   </div>
                 </div>
