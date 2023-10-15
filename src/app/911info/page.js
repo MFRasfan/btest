@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import LayoutOne from "../../components/layouts";
-import Breadcrumb from "../components/UI/breadcrumb";
+import LayoutOne from "@/components/layouts";
+import Breadcrumb from "@/components/UI/breadcrumb";
 
-import InformationContent from "../containers/911information/911Information";
+import InformationContent from "@/containers/911information/911Information";
 
 export const metadata = {
   title: 'Cloud-Based Phone System Canada | Besanz.com',
@@ -14,11 +14,11 @@ const Information = () => {
   return (
     <Fragment>
       <LayoutOne>
-       
+
         <Breadcrumb title="911 Information" />
 
-        <InformationContent/>
-        
+        <InformationContent />
+
       </LayoutOne>
     </Fragment>
   );

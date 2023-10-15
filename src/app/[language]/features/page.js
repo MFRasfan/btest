@@ -1,10 +1,10 @@
 "use client"
 
 import React, { Fragment } from "react";
-import LayoutOne from "../layouts";
-import CRM from "../containers/crm";
-import ServiceTwo from "../containers/services/service-two";
-import Breadcrumb from "../components/UI/breadcrumb";
+import LayoutOne from "@/components/layouts";
+import CRM from "@/containers/crm";
+import ServiceTwo from "@/containers/services/service-two";
+import Breadcrumb from "@/components/UI/breadcrumb";
 import Head from "next/head";
 
 const metadata = {

@@ -2,9 +2,9 @@
 
 import React, { Fragment } from "react";
 import LayoutOne from "@/components/layouts";
-import Breadcrumb from "@/app/components/UI/breadcrumb";
-import styles from "../PostDetailsWithSidebar.module.scss";
-import BlogSidebar from "@/app/containers/blog/blog-sidebar";
+import Breadcrumb from "@/components/UI/breadcrumb";
+import styles from "@/app/blog/blog-post/PostDetailsWithSidebar.module.scss";
+import BlogSidebar from "@/containers/blog/blog-sidebar";
 import Head from "next/head";
 
 
@@ -18,7 +18,7 @@ const BlogPost = () => {
     <Fragment>
       <LayoutOne>
 
-      <Head>
+        <Head>
           <title>{metadata.title}</title>
           <meta name="description" content={metadata.description} />
           <meta property="og:title" content={metadata.title} />
@@ -59,10 +59,10 @@ const BlogPost = () => {
                     </div> */}
 
                     <h1 className={styles.blTitle}>The Benefits of Cloud-Based Business Phone Solutions for Remote and Hybrid Work
-</h1>
+                    </h1>
 
                     <p>
-                    The COVID-19 pandemic has changed the way we work. More and more businesses are adopting remote and hybrid work models, where employees can work from anywhere, anytime. This offers many benefits, such as increased flexibility, productivity, and employee satisfaction. However, it also poses some challenges, such as maintaining effective communication and collaboration among teams and customers. One of the solutions to overcome these challenges is to use cloud-based business phone solutions. These are phone systems that run on the internet, rather than on traditional hardware or wires. They allow you to make and receive calls from any device, such as your laptop, smartphone, or tablet. They also offer many advanced features, such as voicemail, call forwarding, conferencing, and analytics. 
+                      The COVID-19 pandemic has changed the way we work. More and more businesses are adopting remote and hybrid work models, where employees can work from anywhere, anytime. This offers many benefits, such as increased flexibility, productivity, and employee satisfaction. However, it also poses some challenges, such as maintaining effective communication and collaboration among teams and customers. One of the solutions to overcome these challenges is to use cloud-based business phone solutions. These are phone systems that run on the internet, rather than on traditional hardware or wires. They allow you to make and receive calls from any device, such as your laptop, smartphone, or tablet. They also offer many advanced features, such as voicemail, call forwarding, conferencing, and analytics.
                     </p>
 
                     <h2 className={styles.blTitle}>How cloud-based phone systems can benefit businesses that are working remotely or in a hybrid environment:</h2>
@@ -111,7 +111,7 @@ const BlogPost = () => {
             </div>
           </div>
         </div>
-        
+
       </LayoutOne>
     </Fragment>
   );

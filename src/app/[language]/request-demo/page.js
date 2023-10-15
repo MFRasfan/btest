@@ -1,9 +1,9 @@
 "use client"
 
 import React, { Fragment } from "react";
-import LayoutOne from "../layouts";
-import Breadcrumb from "../components/UI/breadcrumb";
-import { useCalendlyEventListener, InlineWidget } from "react-calendly";
+import LayoutOne from "@/components/layouts";
+import Breadcrumb from "@/components/UI/breadcrumb";
+import { InlineWidget } from "react-calendly";
 import Head from "next/head";
 // import CalendlyP from "../containers/calendly";
 
@@ -16,7 +16,7 @@ const Calendly = () => {
   return (
     <Fragment>
       <LayoutOne>
-      <Head>
+        <Head>
           <title>{metadata.title}</title>
           <meta name="description" content={metadata.description} />
           <meta property="og:title" content={metadata.title} />

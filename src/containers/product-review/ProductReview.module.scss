@@ -1,11 +1,11 @@
-@import "../../../../public/assets/scss/variables";
+@import "@public/assets/scss/variables";
 
 .productStatistics {
     margin: 100px 0 100px 0;
     padding: 100px 0;
     height: 685px;
     position: relative;
-    background-image: url(../../../../public/assets/images/bg-img1.png);
+    background-image: url(/assets/images/bg-img1.png);
     background-repeat: no-repeat;
     background-size: 90% 100%;
 

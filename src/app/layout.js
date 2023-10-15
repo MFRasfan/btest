@@ -10,7 +10,7 @@ import "../../public/assets/css/responsive.css";
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-import Loader from "./components/loader";
+import Loader from "@/components/loader";
 
 // export const metadata = {
 //   title: 'Cloud-Based Phone System Canada | Besanz.com',

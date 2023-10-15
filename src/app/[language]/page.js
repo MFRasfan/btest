@@ -2,9 +2,9 @@
 
 import React, { Fragment } from "react";
 import LayoutOne from "@/components/layouts";
-import ServiceThree from "@/app/containers/services/service-three";
-import PriceSelector from "@/app/components/priceselector";
-import ContactFaqOne from "@/app/containers/contact-faqs/contact-faq-one";
+import ServiceThree from "@/containers/services/service-three";
+import PriceSelector from "@/components/priceselector";
+import ContactFaqOne from "@/containers/contact-faqs/contact-faq-one";
 import Head from "next/head";
 
 const metadata = {
@@ -35,7 +35,6 @@ const Home = () => {
           {/* <meta name="twitter:creator" content="@besanzcom" /> */}
         </Head>
         {/* QUOTE PAGE IS BUILD MODIFYING CONTACT FAQ ONE */}
-        <p>test</p>
         <ContactFaqOne />
         <PriceSelector />
         <ServiceThree />

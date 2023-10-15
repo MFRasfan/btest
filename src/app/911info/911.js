@@ -1,23 +1,20 @@
 import React, { Fragment } from "react";
-import LayoutOne from "../../components/layouts";
-import Breadcrumb from "../components/UI/breadcrumb";
-
-import PrivacyContent from "../containers/terms-and-conditions/TermsAndConditionContent";
-import NineOneOneContent from "../containers/911";
-import render911Template from "../data/911/911.template";
+import LayoutOne from "@/components/layouts";
+import Breadcrumb from "@/components/UI/breadcrumb";
+import NineOneOneContent from "@/containers/911";
 
 const NineOneOne = () => {
 
   return (
     <Fragment>
       <LayoutOne>
-        
+
         <Breadcrumb title="911" />
-     
+
         <NineOneOneContent>
           {/* <p>heelooo</p> */}
-              {/* <PrivacyContent/>  */}
-              {/* {render911Template} */}
+          {/* <PrivacyContent/>  */}
+          {/* {render911Template} */}
         </NineOneOneContent>
 
       </LayoutOne>

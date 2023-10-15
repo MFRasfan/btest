@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import LayoutOne from "../../components/layouts";
-import NotFoundContent from "../containers/not-found";
-import Breadcrumb from "../components/UI/breadcrumb";
+import LayoutOne from "@/components/layouts";
+import NotFoundContent from "@/containers/not-found";
+import Breadcrumb from "@/components/UI/breadcrumb";
 
 const NotFound = () => {
   return (

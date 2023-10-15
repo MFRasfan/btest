@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import LayoutOne from "../layouts";
-import Breadcrumb from "../components/UI/breadcrumb";
-import ContactForm from "../containers/contact/contact-form";
-import ContactMap from "../containers/contact/contact-map";
+import LayoutOne from "@/components/layouts";
+import Breadcrumb from "@/components/UI/breadcrumb";
+import ContactForm from "@/containers/contact/contact-form";
+import ContactMap from "@/containers/contact/contact-map";
 
 export const metadata = {
   title: 'Cloud-Based Phone System Canada | Besanz.com',

@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import LayoutOne from "../../components/layouts";
-import Breadcrumb from "../components/UI/breadcrumb";
+import LayoutOne from "@/components/layouts";
+import Breadcrumb from "@/components/UI/breadcrumb";
 
-import PrivacyContent from "../containers/terms-and-conditions/TermsAndConditionContent";
+import PrivacyContent from "@/containers/terms-and-conditions/TermsAndConditionContent";
 
 export const metadata = {
   title: 'Cloud-Based Phone System Canada | Besanz.com',
@@ -14,10 +14,10 @@ const TermsAndCondition = () => {
   return (
     <Fragment>
       <LayoutOne>
-       
+
         <Breadcrumb title="Terms And Conditions" />
 
-        <PrivacyContent/>
+        <PrivacyContent />
 
       </LayoutOne>
     </Fragment>

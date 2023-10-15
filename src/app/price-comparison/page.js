@@ -1,9 +1,9 @@
 "use client"
 
 import React, { Fragment } from "react";
-import LayoutOne from "../../components/layouts";
-import PriceComparison from "../containers/pricecomparison";
-import Breadcrumb from "../components/UI/breadcrumb";
+import LayoutOne from "@/components/layouts";
+import PriceComparison from "@/containers/pricecomparison";
+import Breadcrumb from "@/components/UI/breadcrumb";
 
 const Comparison = () => {
   

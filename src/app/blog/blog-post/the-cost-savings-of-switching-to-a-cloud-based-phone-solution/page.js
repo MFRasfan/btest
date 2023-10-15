@@ -2,9 +2,9 @@
 
 import React, { Fragment } from "react";
 import LayoutOne from "@/components/layouts";
-import Breadcrumb from "@/app/components/UI/breadcrumb";
-import styles from "../PostDetailsWithSidebar.module.scss";
-import BlogSidebar from "@/app/containers/blog/blog-sidebar";
+import Breadcrumb from "@/components/UI/breadcrumb";
+import styles from "@/app/blog/blog-post/PostDetailsWithSidebar.module.scss";
+import BlogSidebar from "@/containers/blog/blog-sidebar";
 import Head from "next/head";
 
 const metadata = {

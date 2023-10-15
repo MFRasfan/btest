@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import LayoutOne from "../../components/layouts";
-import Breadcrumb from "../components/UI/breadcrumb";
-import BlogFeatured from "../containers/blog/blog-featured";
-import BlogSidebar from "../containers/blog/blog-sidebar";
+import LayoutOne from "@/components/layouts";
+import Breadcrumb from "@/components/UI/breadcrumb";
+import BlogFeatured from "@/containers/blog/blog-featured";
+import BlogSidebar from "@/containers/blog/blog-sidebar";
 
 export const metadata = {
   title: 'Cloud-Based Phone System Canada | Besanz.com',

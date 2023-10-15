@@ -1,10 +1,10 @@
-@import "../../../../public/assets/scss/variables";
+@import "@public/assets/scss/variables";
 
 .requestQuote {
     height: 800px;
     margin-bottom: 60px;
     position: relative;
-    background-image: url(../../../../public/assets/images/bg-img2.png);
+    background-image: url(../../../public/assets/images/bg-img2.png);
     background-repeat: no-repeat;
     background-size: 90% 100%;
     background-position: right;

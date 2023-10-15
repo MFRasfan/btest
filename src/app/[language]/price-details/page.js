@@ -1,10 +1,10 @@
 "use client"
 
-import React, { Fragment , useState, useEffect } from "react";
-import LayoutOne from "../layouts";
-import PricingTableOne from "../containers/pricing-tables/pricing-table-one";
-import {annualPriceData, monthlyPriceData, annualOnePriceData,monthlyOnePriceData } from "../data/pricing-tables/pricedetail";
-import Breadcrumb from "../components/UI/breadcrumb";
+import React, { Fragment } from "react";
+import LayoutOne from "@/components/layouts";
+import PricingTableOne from "@/containers/pricing-tables/pricing-table-one";
+import { annualPriceData, monthlyPriceData, annualOnePriceData, monthlyOnePriceData } from "@/data/pricing-tables/pricedetail";
+import Breadcrumb from "@/components/UI/breadcrumb";
 import Head from "next/head";
 
 const metadata = {
@@ -13,11 +13,11 @@ const metadata = {
 }
 
 const Comparison = () => {
-  
+
   return (
     <Fragment>
       <LayoutOne>
-      <Head>
+        <Head>
           <title>{metadata.title}</title>
           <meta name="description" content={metadata.description} />
           <meta property="og:title" content={metadata.title} />
@@ -35,14 +35,14 @@ const Comparison = () => {
           {/* <meta name="twitter:creator" content="@besanzcom" /> */}
         </Head>
         {/* breadcrumb */}
-        <Breadcrumb 
-        // title={t("price_details")} 
-        title="Price Details"
+        <Breadcrumb
+          // title={t("price_details")} 
+          title="Price Details"
         />
-        <PricingTableOne background="none" type={"annual"} data={annualPriceData.en} /> 
-        <PricingTableOne background="none" type={"monthly"} data={monthlyPriceData.en} /> 
-        <PricingTableOne background="none" type={"annual"} data={annualOnePriceData.en} /> 
-        <PricingTableOne background="none" type={"monthly"} data={monthlyOnePriceData.en} /> 
+        <PricingTableOne background="none" type={"annual"} data={annualPriceData.en} />
+        <PricingTableOne background="none" type={"monthly"} data={monthlyPriceData.en} />
+        <PricingTableOne background="none" type={"annual"} data={annualOnePriceData.en} />
+        <PricingTableOne background="none" type={"monthly"} data={monthlyOnePriceData.en} />
       </LayoutOne>
     </Fragment>
   );
