@@ -1,7 +1,7 @@
 "use client"
 
 import React, { Fragment } from "react";
-import LayoutOne from "../../layouts";
+import LayoutOne from "../../../components/layouts";
 import PriceComparison from "../../containers/pricecomparison";
 import Breadcrumb from "../../components/UI/breadcrumb";
 import Head from "next/head";

@@ -1,7 +1,7 @@
 "use client"
 
 import React, { Fragment , useState, useEffect } from "react";
-import LayoutOne from "../layouts";
+import LayoutOne from "../../components/layouts";
 import PricingTableOne from "../containers/pricing-tables/pricing-table-one";
 import {annualPriceData, monthlyPriceData, annualOnePriceData,monthlyOnePriceData } from "../data/pricing-tables/pricedetail";
 import Breadcrumb from "../components/UI/breadcrumb";

@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import LayoutOne from "../layouts";
+import LayoutOne from "../../components/layouts";
 import Breadcrumb from "../components/UI/breadcrumb";
 import ContactForm from "../containers/contact/contact-form";
 import ContactMap from "../containers/contact/contact-map";

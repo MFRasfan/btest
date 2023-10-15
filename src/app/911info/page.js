@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import LayoutOne from "../layouts";
+import LayoutOne from "../../components/layouts";
 import Breadcrumb from "../components/UI/breadcrumb";
 
 import InformationContent from "../containers/911information/911Information";
